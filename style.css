@@ -1,0 +1,177 @@
+/* styling of header section  */
+*{
+    line-height: 65px;
+    font-family: SolomonSansSemiBold,sans-serif;
+    /* background-color: rgba(184, 183, 183, 0.1); */
+}
+:root{
+    --pink:#FF0034;   
+}
+.main{
+    margin: 3% 0;
+}
+
+.section-margin{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.head-logo{
+    margin-left: 9%;
+}
+
+.head-bg-img{
+    background-image: url(./images/headerBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: auto;
+}
+
+.text{
+    text-align: center;
+    position: relative;
+    margin: auto;
+    font-size: 52px;
+    color: #000;
+    font-weight: 510;
+    bottom: 0;
+}
+
+.two-box{
+    position: relative;
+    padding-top: 65px;
+    left: -65px;
+    /* padding-left: -10px; */
+}
+
+.button{
+    background-color: var(--pink);
+    padding: 5px 23px 5px 23px;
+    width: 240px;
+    height: 65px;
+    color: white;
+    font-size: 18px;
+    box-shadow: 1px 4px 25px #ea5e77;
+}
+
+.icons{
+    font-size: 20px;
+}
+
+@media only screen and (max-width:600px){
+    .one-box{
+        display: none;
+    }
+    .two-box{
+        display: none;
+    }
+}
+
+.cards{
+    margin-top: 8% !important;
+}
+
+.cards div:nth-child(1){
+    border-right: 0.5px solid rgba(255, 198, 207 , 0.3);
+    border-bottom: 0.5px solid rgba(255, 198, 207 , 0.3);
+}
+.cards div:nth-child(2){
+    border-bottom: 0.5px solid rgba(255, 198, 207 , 0.3);
+}
+
+.cards>div{
+    padding: 5% 0 !important;
+}
+
+.cards-sec>div{
+    padding: 5% 0 !important;
+}
+
+.cards-sec div:nth-child(1){
+    border-right: 1px solid rgba(255, 198, 207 , 0.3);
+}
+
+
+
+@media only screen and (max-width:770px){
+    .cards-sec div:nth-child(1){
+        border: none;
+    }
+
+    .cards div:nth-child(1),.cards div:nth-child(2){
+        border: none;
+    }
+
+}
+
+
+.info{
+    background-color: rgb(128, 128, 128);
+    padding-top: 30px;
+    padding-left: 68px;
+    height: 431px;
+    width: auto;
+    /* position: absolute; */
+}
+
+.info div h3{
+    width: 60%;
+    height: 18vh;
+}
+
+.clouds{
+    position: relative;
+    top: -100px;
+}
+
+.implements{
+    width: 50%;
+}
+
+.tool{
+    width: 183.14px;
+}
+
+.tool img{
+    margin: 50px 0 50px 0;
+    /* line-height: 300px; */
+}
+
+.clients{
+    background-color: rgb(0, 0, 0);
+}
+
+.company-logo{
+    width: 25%
+}
+.company-logo img{
+    padding: 50px;
+}
+
+.company-img{
+    position: relative;
+    height: auto;
+}
+
+.over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+
+    
+@media only screen and (max-width:570px){
+    .tool{
+        width: 50%;
+    }
+    .company-logo{
+        width: 50%;
+    }
+}
