@@ -5,10 +5,10 @@
     /* background-color: rgba(184, 183, 183, 0.1); */
 }
 :root{
-    --pink:#FF0034;   
+    --pink:rgb(255, 0, 52);   
 }
 .main{
-    margin: 3% 0;
+    padding-top: 20px ;
 }
 
 .section-margin{
@@ -29,13 +29,13 @@
     height: auto;
 }
 
-.text{
+.text-header{
     text-align: center;
     position: relative;
     margin: auto;
+    padding-top: 6%;
     font-size: 52px;
     color: #000;
-    font-weight: 510;
     bottom: 0;
 }
 
@@ -48,16 +48,16 @@
 
 .button{
     background-color: var(--pink);
-    padding: 5px 23px 5px 23px;
-    width: 240px;
+    padding: 0px 53px 5px 53px;
+    max-width: 260px;
     height: 65px;
     color: white;
     font-size: 18px;
-    box-shadow: 1px 4px 25px #ea5e77;
+    box-shadow: 1px 4px 25px rgba(255, 0, 52 , 0.5);
 }
 
 .icons{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 @media only screen and (max-width:600px){
@@ -66,6 +66,12 @@
     }
     .two-box{
         display: none;
+    }
+    .button{
+        padding: 0px 23px 5px 23px;
+    }
+    .text-header{
+        font-size: 42px;
     }
 }
 
@@ -144,15 +150,10 @@
 }
 
 .company-logo{
-    width: 25%
+    width: 25%;
 }
 .company-logo img{
-    padding: 50px;
-}
-
-.company-img{
-    position: relative;
-    height: auto;
+    margin: 50px 0;
 }
 
 .over{
@@ -161,8 +162,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 
@@ -174,4 +174,83 @@
     .company-logo{
         width: 50%;
     }
+}
+@media only screen and (max-width:990px){
+    .company-logo{
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width:770px){
+    .company-logo{
+        width: 50%;
+    }
+}
+
+.clients h1{
+    width: 70%;
+    margin: auto;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.domain{
+    color: var(--pink);
+}
+
+.footer div div{
+    line-height: 50px;
+}
+
+.team-heading{
+    margin-top: 5%;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.footer-sections{
+    height: 650px;
+}
+
+.domain-devOps{
+    font-size: 20px;
+    color: var(--pink);
+}
+
+.domain-devs{
+    font-size: 20px;
+    /* color: var(--pink); */
+}
+
+.contact{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bg-red{
+    background-color: var(--pink);
+}
+
+@media only screen and (max-width:570px){
+    .icons-footer{
+        position: none !important;
+    }
+    .footer-sections{
+        height: 950px;
+    }
+   
+}
+
+.section-margin-top{
+    margin-top: 10%;
+}
+
+.footer-text{
+    height: 20vh;
+    font-size: 14px;
+    font-weight: 600;
+}
+.fingers{
+    margin-top: -8px;
+    height: 20px;
 }
