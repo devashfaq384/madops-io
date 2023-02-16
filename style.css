@@ -3,11 +3,13 @@
     /* font-family: SolomonSansSemiBold,sans-serif; */
 }
 :root{
-    --pink:#ff0034;   
+    --red : rgb(255, 88, 88);
+    --yellow: rgba(255, 255, 77, 0.947);   
 }
 .main{
     padding-top: 20px ;
 }
+
 
 .one-box{
     padding-top: 5%;
@@ -16,6 +18,10 @@
 .section-margin{
     margin-top: 10%;
     margin-bottom: 10%;
+}
+
+.padding-y{
+    padding:10% 0 0 0;
 }
 
 .head-logo{
@@ -53,13 +59,21 @@
 }
 
 .button{
-    background-color: var(--pink);
     padding: 0px 53px 5px 53px;
     max-width: 260px;
     height: 65px;
-    color: white;
     font-size: 18px;
-    box-shadow: 1px 4px 25px rgba(255, 0, 52 , 0.5);
+    transition: 0.5s all;
+    color: white;
+    background-color: rgb(255, 0, 52);
+    box-shadow: 1px 4px 25px rgba(255, 0, 52 , 0.4);
+}
+
+.button:hover{
+    background-color: var(--yellow);
+    box-shadow: 1px 4px 25px rgba(255, 247, 0, 0.5);
+    color: black;
+    transform: scale(1.1);
 }
 
 .icons{
@@ -85,6 +99,10 @@
     .text-header{
         font-size: 42px;
     }
+}
+
+.card-bg{
+    background-color: rgba(255, 255, 0, 0.414);
 }
 
 .cards{
@@ -187,7 +205,7 @@
 }
 
 .clients{
-    background-color: rgb(0, 0, 0);
+    background-color: black;
 }
 
 .company-logo{
@@ -246,7 +264,7 @@
 }
 
 .domain{
-    color: var(--pink);
+    color: var(--yellow);
 }
 
 .footer div div{
@@ -258,6 +276,12 @@
     font-size: 35px;
     font-weight: 500;
 }
+.team-heading-sec{
+    margin-top: 5%;
+    font-size: 35px;
+    font-weight: 500;
+    color: black;
+}
 
 .footer-sections{
     height: 650px;
@@ -265,22 +289,27 @@
 
 .domain-devOps{
     font-size: 20px;
-    color: var(--pink);
+    color: var(--yellow);
 }
 
 .domain-devs{
     font-size: 20px;
-    /* color: var(--pink); */
+    color: black;
 }
 
 .contact{
     font-size: 18px;
     font-weight: bold;
 }
+.contact-sec{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 .bg-red{
-    background-color: var(--pink);
-}
+    background-color: rgb(239, 239, 14);
+}   
 
 @media only screen and (max-width:570px){
     
@@ -305,4 +334,35 @@
 }
 .icons-footer img{
     margin-top: 15px;
+}
+
+
+
+.button-footer{
+    padding: 0px 53px 5px 53px;
+    max-width: 260px;
+    height: 65px;
+    font-size: 18px;
+    transition: 0.5s all;
+    color: black;
+    background-color: var(--yellow);
+    box-shadow: 1px 4px 25px rgba(234, 230, 0, 0.915);
+}
+
+.button-black{
+    box-shadow: none;
+    background-color: rgb(37, 37, 37) !important;
+}
+
+.button-black:hover{
+    color: white !important;
+    box-shadow: 1px 4px 25px rgba(70, 70, 70, 0.3);
+    background-color: rgb(37, 37, 37) !important;
+}
+
+.button-footer:hover{
+    box-shadow: 1px 4px 25px rgba(255, 0, 52 , 0.4);
+    background-color: rgb(255, 0, 52);
+    color: white;
+    transform: scale(1.1);
 }
