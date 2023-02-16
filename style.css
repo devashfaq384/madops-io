@@ -113,13 +113,16 @@
 }
 
 
-.info{
+
+
+
+/* .info{
     background-color: rgb(128, 128, 128);
     padding-top: 30px;
     padding-left: 68px;
     height: 431px;
     width: auto;
-    /* position: absolute; */
+    position: absolute;
 }
 
 .info div h3{
@@ -130,11 +133,42 @@
 .clouds{
     position: relative;
     top: -100px;
+} */
+
+
+.implements-text{
+    width: auto;
+    height: auto;
+    background-color: gray;
+    position: relative;
 }
 
-.implements{
-    width: 50%;
+.corner{
+    position: absolute;
+    margin: auto;
+    right: 0;
+    bottom: 0;
 }
+
+.implements-content {
+    position: relative;
+}
+
+.implements-heading{
+    
+}
+
+.cloud{
+
+    position: absolute;
+    /* margin-top: 50px !important; */
+    /* margin-bottom: 50px; */
+}
+
+
+
+
+
 
 .tool{
     width: 183.14px;
@@ -173,6 +207,9 @@
     }
     .company-logo{
         width: 50%;
+    }
+    .text-header{
+        font-size: 32px;
     }
 }
 @media only screen and (max-width:990px){
