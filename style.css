@@ -4,7 +4,7 @@
 }
 :root{
     --red : rgb(255, 88, 88);
-    --yellow: rgba(255, 255, 77, 0.947);   
+    --yellow: #326ce5;   
 }
 .main{
     padding-top: 20px ;
@@ -308,7 +308,7 @@
 }
 
 .bg-red{
-    background-color: rgb(239, 239, 14);
+    background-color: #326ce5;
 }   
 
 @media only screen and (max-width:570px){
