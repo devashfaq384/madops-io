@@ -204,8 +204,11 @@
     background-color: black;
 }
 
-.company-logo{
+/* .company-logo{
     width: 16.6%;
+} */
+.company-logo{
+    width: 25%;
 }
 .company-logo img{
     margin: 50px 0;
@@ -225,9 +228,9 @@
     .tool{
         width: 25%;
     }
-    .company-logo{
+    /* .company-logo{
         width: 25%;
-    }
+    } */
 }
 
 @media only screen and (max-width:570px){
