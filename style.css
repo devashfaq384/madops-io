@@ -1,10 +1,7 @@
-/* styling of header section  */
-*{
-    /* font-family: SolomonSansSemiBold,sans-serif; */
-}
+
 :root{
     --red : rgb(255, 88, 88);
-    --yellow: #326ce5;   
+    --yellow:#326ce5;   
 }
 .main{
     padding-top: 20px ;
@@ -71,8 +68,7 @@
 
 .button:hover{
     background-color: var(--yellow);
-    box-shadow: 1px 4px 25px #326ce5;
-    color: black;
+    box-shadow: 1px 4px 25px rgba(72, 84, 255, 0.5);
     transform: scale(1.1);
 }
 
@@ -102,7 +98,6 @@
 }
 
 .card-bg{
-    color : white ;
     background-color: rgba(255, 255, 0, 0.414);
 }
 
@@ -198,7 +193,7 @@
 
 
 .tool{
-    width: 183.14px;
+    width: 16.6%;
 }
 
 .tool img{
@@ -226,8 +221,14 @@
 }
 
 
-    
+@media only screen and (max-width:850px){
+    .tool{
+        width: 25%;
+    }
+}
+
 @media only screen and (max-width:570px){
+    
     .tool{
         width: 50%;
     }
@@ -281,7 +282,7 @@
     margin-top: 5%;
     font-size: 35px;
     font-weight: 500;
-    color: black;
+    color: white;
 }
 
 .footer-sections{
@@ -290,12 +291,12 @@
 
 .domain-devOps{
     font-size: 20px;
-    color: var(--yellow);
+    color: var(--red);
 }
 
 .domain-devs{
     font-size: 20px;
-    color: black;
+    color: white;
 }
 
 .contact{
@@ -303,13 +304,14 @@
     font-weight: bold;
 }
 .contact-sec{
-    color: black;
+    color: white;
     font-size: 18px;
     font-weight: bold;
 }
 
 .bg-red{
-    background-color: #326ce5;
+    background-color: var(--yellow);
+    color: white;
 }   
 
 @media only screen and (max-width:570px){
@@ -345,9 +347,9 @@
     height: 65px;
     font-size: 18px;
     transition: 0.5s all;
-    color: black;
-    background-color: var(--yellow);
-    box-shadow: 1px 4px 25px rgba(234, 230, 0, 0.915);
+    color: white;
+    background-color: #0051ff7c;
+    box-shadow: 1px 4px 25px rgb(50, 107, 229);
 }
 
 .button-black{
@@ -362,7 +364,7 @@
 }
 
 .button-footer:hover{
-    box-shadow: 1px 4px 25px #326ce5;
+    box-shadow: 1px 4px 25px rgba(255, 0, 52 , 0.4);
     background-color: rgb(255, 0, 52);
     color: white;
     transform: scale(1.1);
